@@ -19,7 +19,7 @@ void loop()
     delay(10);
   }
   // Decelerate from maximum speed to zero
-  for (i = 255; i != 0; i—)
+  for (i = 255; i != 0; i--)
   {
     motor.setSpeed(i);
     delay(10);
@@ -33,7 +33,7 @@ void loop()
     delay(10);
   }
   // Decelerate from maximum speed to zero
-  for (i = 255; i!= 0; i—)
+  for (i = 255; i!= 0; i--)
   {
     motor.setSpeed(i);
     delay(10);
